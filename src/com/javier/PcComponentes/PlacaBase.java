@@ -1,12 +1,12 @@
 package com.javier.PcComponentes;
 
 public class PlacaBase {
-    /** Atributos*/
+    /** Atributos */
     private Integer id;
     private String marca;
     private String fabricante;
     private Integer precio;
-    /** Metodos*/
+    /** Metodos */
     public Integer getId(){
         return id;
     }
