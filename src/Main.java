@@ -71,5 +71,15 @@ public class Main {
         System.out.println(corsair.getMarca());
         System.out.println(corsair.getModelo());
         System.out.println(corsair.getPotencia());
+
+        TarjetaSonido creative = new TarjetaSonido();
+        creative.setId(1);
+        creative.setMarca("Creative");
+        creative.setModelo("Sound Blaster");
+        creative.setInterfaz("USB");
+        System.out.println(creative.getId());
+        System.out.println(creative.getMarca());
+        System.out.println(creative.getModelo());
+        System.out.println(creative.getInterfaz());
     }
 }
