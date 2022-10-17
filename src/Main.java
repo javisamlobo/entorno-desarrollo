@@ -61,5 +61,15 @@ public class Main {
         System.out.println(samsung.getMarca());
         System.out.println(samsung.getModelo());
         System.out.println(samsung.getFormato());
+
+        FuenteAlimentacion corsair = new FuenteAlimentacion();
+        corsair.setId(1);
+        corsair.setMarca("Corsair");
+        corsair.setModelo("CV");
+        corsair.setPotencia(850);
+        System.out.println(corsair.getId());
+        System.out.println(corsair.getMarca());
+        System.out.println(corsair.getModelo());
+        System.out.println(corsair.getPotencia());
     }
 }
