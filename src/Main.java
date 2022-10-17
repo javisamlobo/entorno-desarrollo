@@ -1,5 +1,7 @@
+import com.javier.PcComponentes.MemoriaRam;
 import com.javier.PcComponentes.PlacaBase;
 import com.javier.PcComponentes.Procesador;
+import com.javier.PcComponentes.TarjetaGrafica;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,5 +32,25 @@ public class Main {
         System.out.println(asus.getMarca());
         System.out.println(asus.getFabricante());
         System.out.println(asus.getPrecio());
+
+        TarjetaGrafica nvidia = new TarjetaGrafica();
+        nvidia.setId(1);
+        nvidia.setMarca("Nvidia");
+        nvidia.setModelo("3090");
+        nvidia.setMemoria("8GB");
+        System.out.println(nvidia.getId());
+        System.out.println(nvidia.getMarca());
+        System.out.println(nvidia.getModelo());
+        System.out.println(nvidia.getMemoria());
+
+        MemoriaRam kingston = new MemoriaRam();
+        kingston.setId(1);
+        kingston.setMarca("Kingston");
+        kingston.setModelo("Fury Beast");
+        kingston.setCapacidad("16GB");
+        System.out.println(kingston.getId());
+        System.out.println(kingston.getMarca());
+        System.out.println(kingston.getModelo());
+        System.out.println(kingston.getCapacidad());
     }
 }
