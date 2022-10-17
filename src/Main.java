@@ -1,7 +1,4 @@
-import com.javier.PcComponentes.MemoriaRam;
-import com.javier.PcComponentes.PlacaBase;
-import com.javier.PcComponentes.Procesador;
-import com.javier.PcComponentes.TarjetaGrafica;
+import com.javier.PcComponentes.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,14 +11,6 @@ public class Main {
         System.out.println(amd.getId());
         System.out.println(amd.getMarca());
         System.out.println(amd.getFabricante());
-
-        Procesador pentium = new Procesador();
-        pentium.setId(2);
-        pentium.setMarca("17");
-        pentium.setFabricante("Intel");
-        System.out.println(pentium.getId());
-        System.out.println(pentium.getMarca());
-        System.out.println(pentium.getFabricante());
 
         PlacaBase asus = new PlacaBase();
         asus.setId(1);
@@ -52,5 +41,15 @@ public class Main {
         System.out.println(kingston.getMarca());
         System.out.println(kingston.getModelo());
         System.out.println(kingston.getCapacidad());
+
+        Torre tempest = new Torre();
+        tempest.setId(1);
+        tempest.setMarca("Tempest");
+        tempest.setModelo("Spectra");
+        tempest.setFormato("ATx");
+        System.out.println(tempest.getId());
+        System.out.println(tempest.getMarca());
+        System.out.println(tempest.getModelo());
+        System.out.println(tempest.getFormato());
     }
 }
