@@ -51,5 +51,15 @@ public class Main {
         System.out.println(tempest.getMarca());
         System.out.println(tempest.getModelo());
         System.out.println(tempest.getFormato());
+
+        DiscoDuro samsung = new DiscoDuro();
+        samsung.setId(1);
+        samsung.setMarca("Samsung");
+        samsung.setModelo("870 QV");
+        samsung.setFormato("SATA");
+        System.out.println(samsung.getId());
+        System.out.println(samsung.getMarca());
+        System.out.println(samsung.getModelo());
+        System.out.println(samsung.getFormato());
     }
 }
