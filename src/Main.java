@@ -16,7 +16,7 @@ public class Main {
         asus.setId(1);
         asus.setMarca("gmb");
         asus.setFabricante("ASUS");
-        asus.setPrecio(29);
+        asus.setPrecio(29.54f);
         System.out.println(asus.getId());
         System.out.println(asus.getMarca());
         System.out.println(asus.getFabricante());
@@ -81,5 +81,15 @@ public class Main {
         System.out.println(creative.getMarca());
         System.out.println(creative.getModelo());
         System.out.println(creative.getInterfaz());
+
+        VentiladorCpu noctua = new VentiladorCpu();
+        noctua.setId(1);
+        noctua.setMarca("Noctua");
+        noctua.setModelo("NH-U125");
+        noctua.setChipset("LGA1200");
+        System.out.println(noctua.getId());
+        System.out.println(noctua.getMarca());
+        System.out.println(noctua.getModelo());
+        System.out.println(noctua.getChipset());
     }
 }
