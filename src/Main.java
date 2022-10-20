@@ -121,5 +121,18 @@ public class Main {
         System.out.println(razer.getMarca());
         System.out.println(razer.getModelo());
         System.out.println(razer.getPrecio());
+
+        Raton logitech = new Raton();
+        logitech.setId(1);
+        logitech.setMarca("Logitech");
+        logitech.setModelo("G502");
+        logitech.setPollingrate("16.000 DPI");
+        logitech.setPrecio(98.95f);
+        System.out.println(logitech.getId());
+        System.out.println(logitech.getMarca());
+        System.out.println(logitech.getModelo());
+        System.out.println(logitech.getPollingrate());
+        System.out.println(logitech.getPrecio());
     }
+
 }
