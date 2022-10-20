@@ -112,5 +112,14 @@ public class Main {
         System.out.println(msi.getModelo());
         System.out.println(msi.getTasa_refresco());
 
+        Teclado razer = new Teclado();
+        razer.setId(1);
+        razer.setMarca("LG");
+        razer.setModelo("Ultra Slim");
+        razer.setPrecio(156.95f);
+        System.out.println(razer.getId());
+        System.out.println(razer.getMarca());
+        System.out.println(razer.getModelo());
+        System.out.println(razer.getPrecio());
     }
 }
