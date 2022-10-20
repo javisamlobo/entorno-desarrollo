@@ -91,5 +91,15 @@ public class Main {
         System.out.println(noctua.getMarca());
         System.out.println(noctua.getModelo());
         System.out.println(noctua.getChipset());
+
+        GrabadoraDVD lg = new GrabadoraDVD();
+        lg.setId(1);
+        lg.setMarca("LG");
+        lg.setModelo("Ultra Slim");
+        lg.setPrecio(56.45f);
+        System.out.println(lg.getId());
+        System.out.println(lg.getMarca());
+        System.out.println(lg.getModelo());
+        System.out.println(lg.getPrecio());
     }
 }
