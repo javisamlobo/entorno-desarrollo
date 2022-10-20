@@ -6,20 +6,20 @@ public class Main {
 
         Procesador amd = new Procesador();
         amd.setId(1);
-        amd.setMarca("Ryzen");
-        amd.setFabricante("AMD");
+        amd.setMarca("AMD");
+        amd.setModelo("Ryzen 5300");
         System.out.println(amd.getId());
         System.out.println(amd.getMarca());
-        System.out.println(amd.getFabricante());
+        System.out.println(amd.getModelo());
 
         PlacaBase asus = new PlacaBase();
         asus.setId(1);
-        asus.setMarca("gmb");
-        asus.setFabricante("ASUS");
+        asus.setMarca("Asus");
+        asus.setModelo("blackrock");
         asus.setPrecio(29.54f);
         System.out.println(asus.getId());
         System.out.println(asus.getMarca());
-        System.out.println(asus.getFabricante());
+        System.out.println(asus.getModelo());
         System.out.println(asus.getPrecio());
 
         TarjetaGrafica nvidia = new TarjetaGrafica();
@@ -32,7 +32,7 @@ public class Main {
         System.out.println(nvidia.getModelo());
         System.out.println(nvidia.getMemoria());
 
-        MemoriaRam kingston = new MemoriaRam();
+        MemoriaRAM kingston = new MemoriaRAM();
         kingston.setId(1);
         kingston.setMarca("Kingston");
         kingston.setModelo("Fury Beast");
@@ -82,7 +82,7 @@ public class Main {
         System.out.println(creative.getModelo());
         System.out.println(creative.getInterfaz());
 
-        VentiladorCpu noctua = new VentiladorCpu();
+        VentiladorCPU noctua = new VentiladorCPU();
         noctua.setId(1);
         noctua.setMarca("Noctua");
         noctua.setModelo("NH-U125");

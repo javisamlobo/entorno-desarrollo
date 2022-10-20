@@ -6,7 +6,7 @@ public class PlacaBase {
      */
     private Integer id;
     private String marca;
-    private String fabricante;
+    private String modelo;
     private Float precio;
 
     /**
@@ -28,12 +28,12 @@ public class PlacaBase {
         this.marca = marca;
     }
 
-    public String getFabricante() {
-        return fabricante;
+    public String getModelo() {
+        return modelo;
     }
 
-    public void setFabricante(String fabricante) {
-        this.fabricante = fabricante;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
     public Float getPrecio() {

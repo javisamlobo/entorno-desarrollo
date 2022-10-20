@@ -1,6 +1,6 @@
 package com.javier.PcComponentes;
 
-public class VentiladorCpu {
+public class VentiladorCPU {
     /**Atributos*/
     private Integer id;
     private String marca;

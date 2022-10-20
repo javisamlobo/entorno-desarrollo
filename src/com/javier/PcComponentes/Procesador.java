@@ -9,7 +9,7 @@ public class Procesador {
      */
     private Integer id;
     private String marca;
-    private String fabricante;
+    private String modelo;
 
     /**
      * Metodos, funciones, comportamiento
@@ -28,8 +28,8 @@ public class Procesador {
 
     public void setMarca(String marca) { this.marca = marca; }
 
-    public String getFabricante(){ return fabricante; }
+    public String getModelo(){ return modelo; }
 
-    public void setFabricante(String fabricante) { this.fabricante = fabricante; }
+    public void setModelo(String modelo) { this.modelo = modelo; }
 
 }

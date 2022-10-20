@@ -1,6 +1,6 @@
 package com.javier.PcComponentes;
 
-public class MemoriaRam {
+public class MemoriaRAM {
     /**Atributos*/
     private Integer id;
     private String marca;
