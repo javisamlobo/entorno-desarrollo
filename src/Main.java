@@ -136,9 +136,9 @@ public class Main {
 
         Altavoces newskill = new Altavoces();
         newskill.setId(1);
-        newskill.setMarca("Logitech");
-        newskill.setModelo("G502");
-        newskill.setPotencia("16.000 DPI");
+        newskill.setMarca("Newskill");
+        newskill.setModelo("Vamana RGB");
+        newskill.setPotencia("10 W");
         newskill.setPrecio(56.23f);
         System.out.println(newskill.getId());
         System.out.println(newskill.getMarca());
