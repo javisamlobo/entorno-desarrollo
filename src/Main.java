@@ -133,6 +133,19 @@ public class Main {
         System.out.println(logitech.getModelo());
         System.out.println(logitech.getPollingrate());
         System.out.println(logitech.getPrecio());
+
+        Altavoces newskill = new Altavoces();
+        newskill.setId(1);
+        newskill.setMarca("Logitech");
+        newskill.setModelo("G502");
+        newskill.setPotencia("16.000 DPI");
+        newskill.setPrecio(56.23f);
+        System.out.println(newskill.getId());
+        System.out.println(newskill.getMarca());
+        System.out.println(newskill.getModelo());
+        System.out.println(newskill.getPotencia());
+        System.out.println(newskill.getPrecio());
+
     }
 
 }

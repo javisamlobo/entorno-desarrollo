@@ -1,3 +1,5 @@
+package com.javier.PcComponentes;
+
 public class Monitor {
        /**Atributos*/
         private Integer id;
