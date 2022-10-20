@@ -101,5 +101,16 @@ public class Main {
         System.out.println(lg.getMarca());
         System.out.println(lg.getModelo());
         System.out.println(lg.getPrecio());
+
+        Monitor msi = new Monitor();
+        msi.setId(1);
+        msi.setMarca("MSI");
+        msi.setModelo("G241VC");
+        msi.setTasa_refresco("75Hz");
+        System.out.println(msi.getId());
+        System.out.println(msi.getMarca());
+        System.out.println(msi.getModelo());
+        System.out.println(msi.getTasa_refresco());
+
     }
 }
